@@ -1,7 +1,7 @@
 library(nycflights13)
 
-write.csv(airlines, 'flights/airlines.csv', row.names=FALSE)
-write.csv(airports, 'flights/airports.csv', row.names=FALSE)
-write.csv(flights, 'flights/flights.csv', row.names=FALSE)
-write.csv(planes, 'flights/planes.csv', row.names=FALSE)
-write.csv(weather, 'flights/weather.csv', row.names=FALSE)
+write.csv(airlines, 'nycflights13/airlines.csv', row.names=FALSE)
+write.csv(airports, 'nycflights13/airports.csv', row.names=FALSE)
+write.csv(flights, 'nycflights13/flights.csv', row.names=FALSE)
+write.csv(planes, 'nycflights13/planes.csv', row.names=FALSE)
+write.csv(weather, 'nycflights13/weather.csv', row.names=FALSE)
